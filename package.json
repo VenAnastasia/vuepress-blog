@@ -1,0 +1,42 @@
+{
+  "name": "vueblog",
+
+  "version": "1.0.0",
+
+  "description": "anastasia's blog",
+
+  "main": "index.js",
+
+  "directories": {
+    "doc": "docs"
+  },
+
+  "dependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-theme-yur": "^1.4.3"
+  },
+
+  "devDependencies": {},
+
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "./deploy.sh"
+  },
+
+  "keywords": [
+    "venanastasia",
+    "blog"
+  ],
+
+  "author": "anastasia",
+
+  "license": "ISC",
+
+  "private": true,
+
+  "repository":{
+    "type": "git",
+    "url": "git@github.com:venanastasia/vuepress-blog.git"
+  }
+}
